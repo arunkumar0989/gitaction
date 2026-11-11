@@ -8,3 +8,7 @@ jobs:
         run: echo "Hello team"
       - name: Print welcome message
         run: echo "Welcome team"
+      - name: Print multiline commands
+        run:
+          echo "This is for testing multiple commands"
+          echo "Finally, closing the shell commands"
